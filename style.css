@@ -124,8 +124,9 @@ color:#cfcfcf;
     color: black;
   }
   #img {
-    margin-bottom:200px;
-    margin-left:10px;
+    flex-wrap: wrap;
+    margin-bottom:auto;
+    margin-left:300px;
     margin-right:auto;
     margin-top:20px;
   }
