@@ -177,11 +177,10 @@ color:#cfcfcf;
     color: black;
   }
   #img {
-    flex-wrap: wrap;
-    margin-bottom:auto;
+    margin-bottom:0px;
     margin-left:300px;
-    margin-right:auto;
-    margin-top:20px;
+    margin-right:300px;
+    margin-top:200px;
   }
   /* Style the content */
   #container {
@@ -195,7 +194,6 @@ color:#cfcfcf;
     width:900px;
     }
     .about {
-  border-left:1px solid #f5f5f5;
   color:#000000;
   font-family:'Baskerville';
   font-size:14px;
