@@ -1,94 +1,61 @@
-import Image from 'next/image'
+// import image from './main_picture.jpg'
 import styles from './page.module.css'
+
+// console.log({image})
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
+          <h2>tiffany nguyen</h2>
+         software developer from san jose, california
         </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
       </div>
+      
+      <div className={styles.img_placement}>
+        {/* <img src={image} /> */}
+      </div>
+      
 
       <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+        <h2>
+          about me
+        </h2>
+        <p>hi, i'm tiffany! 😄 i'm an <b>alumna</b> from san jose state who studied computer engineering. in my free time <b></b> programming, i love to:
+        <li>try out new restaruants</li>
+        <li>attend DIY shows</li>
+        <li>collect cute stationary</li>
+        <li>give back to my community</li>
+        <li>play video games</li>
+        
+        </p>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+        <h2>
+          projects
+        </h2>
+        <p>this website
+          foodify.us
+          blips
+        </p>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
+        <h2>
+          experience
+        </h2>
+        <dates>january 2022 - september 2023</dates>
+        <dates>may 2021 - august 2021</dates>
+        <dates>june 2020 - august 2021</dates>
+        <p>
+          grainite
+          software engineer
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+          amazon web services
+          software engineer intern
+
+          cisco systems 
+          software engineer intern
+        </p>
       </div>
     </main>
   )
